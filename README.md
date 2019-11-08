@@ -42,5 +42,5 @@ Then they will be communicating with each other.
 
 ## License
 
-MIT © [Jonathan Morales]()
+MIT © [Jonathan Giler]()
 

@@ -15,12 +15,15 @@ const App = () => {
   const [url, setUrl] = useState([]);
 
   useEffect(() => {
+    update();
+  }, []);
+
+  const update = () => {
     axios
       .get("/api/products")
       .then(({ data }) => setProducts(data))
       .catch(err => console.log(err));
-  }, []);
-  
+  };
 
   const handleCreate = () => {
     axios
@@ -32,10 +35,10 @@ const App = () => {
         ProductDescription: descr,
         ProductQuantity: parseInt(quantity),
         ProductType: type,
-        ProductUrl: url
+        ProductUrl: url,
       })
+      .then(() => update())
       .catch(err => console.log(err));
-
   };
 
   const handleUpdate = () => {
@@ -44,19 +47,23 @@ const App = () => {
       .put(url, {
         productId: parseInt(id),
         ProductName: name,
-        ProductPrice: price,
+        ProductPrice: parseFloat(price),
         ProductColor: color,
         ProductSize: size,
         ProductDescription: descr,
-        ProductQuantity: quantity,
+        ProductQuantity: parseInt(quantity),
         ProductType: type,
-        ProductUrl: url
+        ProductUrl: url,
       })
+      .then(() => update())
       .catch(err => console.log(err));
   };
 
   const handleDelete = () => {
-    axios.delete(`/api/products/${id}`);
+    axios
+      .delete(`/api/products/${id}`)
+      .then(() => update())
+      .catch(err => console.log(err));
   };
 
   return (

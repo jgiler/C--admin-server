@@ -8,11 +8,6 @@ This demonstrates that my front end react application was able to fetch data fro
 ![Read screenshot](frontend/screenshots/Read.png)
 
 ## Create
-Before I created a new product
-![Create screenshot](frontend/screenshots/Create-Before.png)
-
-After I created a new product it was added to the list of all products
-![Create screenshot](frontend/screenshots/Create-After.png)
 
 Here is a giphy for create
 
@@ -20,20 +15,12 @@ Here is a giphy for create
 
 
 ## Update
-Updating the new item I added to MySQL db to Poisedon from Zues 
-![Update screenshot](frontend/screenshots/Update.png)
 
 Here is a giphy for update
 
 ![Update Giphy](update.gif)
 
 ## Delete
-Before deleting 
-![Delete Screenshot](frontend/screenshots/Delete-Before.png)
-Deleting item 65
-![Delete Screenshot](frontend/screenshots/Delete.png)
-After deleting the item its no longer being displayed
-![Delete Screenshot](frontend/screenshots/Delete-After.png)
 
 Here is a giphy for delete
 

@@ -37,7 +37,7 @@ Here is a giphy for delete
 
 ## How to use?
 
-Clone this repo and then in the C# files I would change the generic connection string I put in the startup file to your DB that you like to connect then from there run the application. While thats running open a terminal and be inside the frontend dir and run
+Clone this repo and then in the C# files I would change the generic connection string I put in the startup file to your DB that you like to connect. Next follows the instructions below starting in the root of the project.
 
 In the terminal run
 

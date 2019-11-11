@@ -37,7 +37,13 @@ Here is a giphy for delete
 
 ## How to use?
 
-Clone this repo and then in the C# files I would change the generic connection string I put in the startup file to your DB that you like to connect. Next follows the instructions below starting in the root of the project.
+Clone this repo and then in the C# files I would change the generic connection string I put in the startup file to your DB that you like to connect. Make sure you have the C# extention on vscode. Install the node modules for react with 
+
+```bash
+npm install
+```
+
+Next follows the instructions below starting in the root of the project. 
 
 In the terminal run
 

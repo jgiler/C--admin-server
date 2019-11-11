@@ -11,20 +11,20 @@ This demonstrates that my front end react application was able to fetch data fro
 
 Here is a giphy for create
 
-![Create Giphy](create.gif)
+![Create Giphy](./docs/create.gif)
 
 
 ## Update
 
 Here is a giphy for update
 
-![Update Giphy](update.gif)
+![Update Giphy](./docs/update.gif)
 
 ## Delete
 
 Here is a giphy for delete
 
-![Delete Giphy](delete.gif)
+![Delete Giphy](./docs/delete.gif)
 
 
 ## Tech/framework used
